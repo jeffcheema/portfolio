@@ -1,0 +1,263 @@
+@font-face {
+    font-family: product-sans;
+    src: url(ProductSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: futura;
+    src: url(Futura-Std-Heavy-Oblique.otf);
+}
+
+.product-sans {
+    font-family: product-sans;
+}
+
+@font-face {
+    font-family: Helvetica-Bold;
+    src: url(Helvetica-Bold-Font.ttf);
+}
+
+@font-face {
+    font-family: Helvetica;
+    src: url(Helvetica.ttf);
+}
+
+@font-face {
+    font-family: airin;
+    src: url(Airin.ttf);
+}
+
+body {
+    height: 100%;
+    margin: 0 !important;
+}
+
+* {
+    font-family: Helvetica-Bold;
+    color: black;
+}
+
+.nav {}
+
+html {
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+.airin {
+    font-family: airin;
+}
+
+.page {
+    width: 100%;
+    position: relative;
+    display: none;
+    padding-bottom: 2%;
+}
+
+html {
+    height: 100% !important;
+}
+
+body {
+    height: 100%;
+    /* background: linear-gradient(269deg, #0a8902, #ff9a2f);
+    background-size: 500% 500%;
+    -webkit-animation: AnimationName 5s ease infinite;
+    -moz-animation: AnimationName 15s ease infinite;
+    animation: AnimationName 15s ease infinite;
+    @-webkit-keyframes AnimationName {
+        0% {
+            background-position: 0% 50%
+        }
+        50% {
+            background-position: 100% 50%
+        }
+        100% {
+            background-position: 0% 50%
+        }
+    } */
+    background-color: white;
+}
+
+@-moz-keyframes AnimationName {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@keyframes AnimationName {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+#name {
+    color: #104cfb;
+    text-decoration: underline;
+    font-family: futura;
+}
+
+.stack {
+    padding: 10%;
+    padding-top: 5vh;
+}
+
+.fullwidth {
+    width: 100%;
+}
+
+.fullheight {
+    height: 100%;
+}
+
+#tagline {
+    text-align: center;
+}
+
+.tab {
+    color: #104cfb;
+    text-decoration: underline;
+    font-family: futura;
+    text-transform: uppercase;
+}
+
+.tab:hover {
+    background-color: rgba(248, 247, 216, 0.7);
+}
+
+.underline {
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.underline:hover {
+    cursor: pointer;
+}
+
+.content {
+    padding: 5%;
+}
+
+#fixed {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 100;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.resumePadding {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.normal {
+    font-weight: normal !important;
+    font-family: Helvetica !important;
+}
+
+.cell {
+    padding-top: 2vh;
+}
+
+.resumeTitle {
+    text-decoration: underline;
+}
+
+::-webkit-scrollbar {
+    background-color: white;
+    width: .5em;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: black;
+    outline: 1px solid black;
+}
+
+.client {
+    padding-top: 5vh !important;
+}
+
+.clientPadding {
+    padding: 10%;
+    padding-top: 5vh;
+}
+
+.bottom {
+    width: 100%;
+}
+
+.clientImg {
+    /* display: none !important; */
+}
+
+.nav {}
+
+.special {
+    padding: 1%;
+    width: 30%;
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+#background {
+    /* height: 85%; */
+}
+
+#home {
+    height: 85%;
+}
+
+input,
+textarea {
+    box-sizing: border-box!important;
+    font-weight: 700 !important;
+    border-width: 0!important;
+    border-bottom-color: black!important;
+    border-bottom-style: black!important;
+    border-bottom-width: 2px!important;
+    background-color: transparent;
+    outline: 0!important;
+    box-sizing: border-box!important;
+    outline: 0!important;
+    resize: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+h3 {
+    margin: 0px !important;
+}
+
+ul {
+    padding-left: 2%;
+}
+
+li,
+ul,
+ol {
+    font-weight: 400 !important;
+}
+
+.pageTitle {
+    color: #104cfb;
+    text-decoration: underline;
+    font-family: futura;
+    text-transform: uppercase;
+}
