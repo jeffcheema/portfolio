@@ -114,6 +114,12 @@ body {
     padding-top: 5vh;
 }
 
+.contactPadding {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5vh;
+}
+
 .fullwidth {
     width: 100%;
 }
@@ -260,4 +266,8 @@ ol {
     text-decoration: underline;
     font-family: futura;
     text-transform: uppercase;
+}
+
+#artTagline {
+    padding: 2%;
 }

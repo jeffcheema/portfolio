@@ -19,9 +19,12 @@
 
 <body>
     <div class="nav center" id="fixed">
-        <a class="nav-item tab" href="/">
-            <i class="fas fa-home"></i>
-        </a>
+        <a class="col center tab nav-item" href="#!/aboutme" id="aboutme_1">About</a>
+        <a class="col center tab nav-item" href="#!/resume" id="resume_2">Resume</a>
+        <a class="col center tab nav-item" href="#!/projects" id="projects_3">Projects</a>
+        <a class="col center tab nav-item" href="#!/clients" id="clients_4">Clients</a>
+        <a class="col center tab nav-item" href="#!/experience" id="experience_5">Experience</a>
+        <a class="col center tab nav-item" href="#!/contact" id="contact_6">Contact</a>
     </div>
     <div class="nav right">
         <a class="nav-item tab" target="blank" href="https://www.linkedin.com/in/jeff-cheema-08a163140/">
@@ -520,81 +523,93 @@
         </div>
     </div>
     <div class="page">
-        <div class="stack">
-            <h1 class="bold pageTitle">contact</h1>
-            <i class="normal">Please fill out this form below and I will get back to you as soon as possible.</i>
-            <br>
-            <br>
+        <div class="contactPadding">
             <div class="row">
+                <div class="col-6">
+                    <h1 class="bold pageTitle">contact</h1>
+                    <i class="normal">Please fill out this form below and I will get back to you as soon as possible.</i>
+                    <br>
+                    <br>
+                    <div class="row">
 
 
-                <div class="col-4"> &nbsp;</div>
+                        <div class="col-6">
+                            <input type="text" placeholder="Name" id="formName" />
+                        </div>
 
-                <div class="col-4">
-                    <input type="text" placeholder="Name" id="formName" />
+                        <div class="col-3 hide-phone"> &nbsp;</div>
+
+
+                    </div>
+                    <div class="row">
+
+
+
+
+                        <div class="col-6">
+                            <input type="text" placeholder="Email" id="formContact" />
+                        </div>
+
+                        <div class="col-3 hide-phone"> &nbsp;</div>
+
+
+                    </div>
+                    <div class="row">
+
+
+
+
+                        <div class="col-6">
+                            <textarea placeholder="Message" id="formMessage"></textarea>
+
+                        </div>
+
+                        <div class="col-3 hide-phone"> &nbsp;</div>
+
+
+                    </div>
+                    <div class="row">
+
+
+
+
+                        <div class="col-6 center">
+                            <button class="outline" id="submit">Submit</button>
+
+                        </div>
+
+                        <div class="col-3 hide-phone"> &nbsp;</div>
+
+
+                    </div>
+                    <div class="row">
+
+
+
+
+                        <div class="col-4 center">
+                            <span id="response" class="center">
+        
+                            </span>
+
+                        </div>
+
+                        <div class="col-4"> &nbsp;</div>
+
+
+                    </div>
                 </div>
+                <div class="col-6 hide-phone">
+                    <div class="row">
+                        <img src="images/art.jpg" width="100%">
+                    </div>
+                    <div class="row center" id="artTagline">
 
-                <div class="col-4"> &nbsp;</div>
-
-
-            </div>
-            <div class="row">
-
-
-                <div class="col-4"> &nbsp;</div>
-
-                <div class="col-4">
-                    <input type="text" placeholder="Email" id="formContact" />
+                        <i>Artwork by Takashi Murakami (just something to help fill the empty space)</i>
+                    </div>
                 </div>
-
-                <div class="col-4"> &nbsp;</div>
-
-
             </div>
-            <div class="row">
 
-
-                <div class="col-4"> &nbsp;</div>
-
-                <div class="col-4">
-                    <textarea placeholder="Message" id="formMessage"></textarea>
-
-                </div>
-
-                <div class="col-4"> &nbsp;</div>
-
-
-            </div>
-            <div class="row">
-
-
-                <div class="col-4"> &nbsp;</div>
-
-                <div class="col-4 center">
-                    <button class="outline" id="submit">Submit</button>
-
-                </div>
-
-                <div class="col-4"> &nbsp;</div>
-
-
-            </div>
-            <div class="row">
-
-
-                <div class="col-4"> &nbsp;</div>
-
-                <div class="col-4 center">
-                    <span id="response" class="center">
-
-                    </span>
-
-                </div>
-
-                <div class="col-4"> &nbsp;</div>
-
-
-            </div>
         </div>
     </div>
     </div>
