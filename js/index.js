@@ -155,7 +155,7 @@ document.querySelector("#submit").addEventListener("click", () => {
             response.style.color = "green";
 
             $("#response").fadeOut(0);
-            document.querySelector("#response").innerHTML = "Form submitted! I get back to you as soon as possible";
+            document.querySelector("#response").innerHTML = "Form submitted! I will get back to you as soon as possible";
             document.querySelector("#formName").value = "";
             document.querySelector("#formContact").value = "";
             document.querySelector("#formMessage").value = "";
