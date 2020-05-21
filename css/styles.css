@@ -51,7 +51,6 @@ html {
     width: 100%;
     position: relative;
     display: none;
-    padding-bottom: 2%;
 }
 
 html {
@@ -60,22 +59,6 @@ html {
 
 body {
     height: 100%;
-    /* background: linear-gradient(269deg, #0a8902, #ff9a2f);
-    background-size: 500% 500%;
-    -webkit-animation: AnimationName 5s ease infinite;
-    -moz-animation: AnimationName 15s ease infinite;
-    animation: AnimationName 15s ease infinite;
-    @-webkit-keyframes AnimationName {
-        0% {
-            background-position: 0% 50%
-        }
-        50% {
-            background-position: 100% 50%
-        }
-        100% {
-            background-position: 0% 50%
-        }
-    } */
     background-color: white;
 }
 
@@ -107,6 +90,7 @@ body {
     color: #104cfb;
     text-decoration: underline;
     font-family: futura;
+    text-align: center;
 }
 
 .stack {
@@ -177,6 +161,11 @@ body {
     font-family: Helvetica !important;
 }
 
+span {
+    font-weight: normal !important;
+    font-family: Helvetica !important;
+}
+
 .cell {
     padding-top: 2vh;
 }
@@ -197,6 +186,8 @@ body {
 
 .client {
     padding-top: 5vh !important;
+    font-weight: normal !important;
+    font-family: Helvetica !important;
 }
 
 .clientPadding {
@@ -225,7 +216,7 @@ body {
 }
 
 #home {
-    height: 85%;
+    height: calc(100vh - 64px);
 }
 
 input,
